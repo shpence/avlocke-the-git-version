@@ -3558,7 +3558,7 @@ static const u8 sDynamaxBandDesc[] = _(
 static const u8 sBicycleDesc[] = _(
     "A folding bicycle\n"
     "that is faster than\n"
-    "the Running Shoes.");
+    "the Black Vans.");
 
 static const u8 sMachBikeDesc[] = _(
     "A folding bicycle\n"
