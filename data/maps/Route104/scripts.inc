@@ -1002,7 +1002,7 @@ Route104_Text_BrineyLivesInSeasideCottage:
 	.string "That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"
 	.string "He was once a 10K-andy who never\n"
-	.string "feared working with another streamer,\n"
+	.string "feared working with another streamer,\l"
 	.string "no matter how problematic.$"
 
 Route104_Text_WhatsItLikeAtBottomOfSea:
@@ -1048,7 +1048,7 @@ Route104_Text_DontNeedThisTakeIt:
 	.string "Put your hand out quick. I need you\n"
 	.string "to take this to a FISHERMAN.\p"
 	.string "He's outside RUSTBORO CITY. No\n"
-	.string "questions. I won't remember this\n"
+	.string "questions. I won't remember this\l"
 	.string "conversation, either. Go.$"
 
 Route104_Text_FlowerShopSellingSaplings:
@@ -1083,18 +1083,18 @@ Route104_Text_TrainerTipsDoubleBattles:
 	.string "whether it be an idea or an audience.$"
 
 Route104_Text_MayWeShouldRegister:
-	.string "CAM: Oh, hi, AV{KUN}!\p"
+	.string "CAM: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "DEVON upgraded your POKéNAV with\n"
 	.string "the MATCH CALL system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay:
-	.string "AV registered CAM\n"
+	.string "{PLAYER} registered CAM\n"
 	.string "in the POKéNAV.$"
 
 Route104_Text_MayHowsYourPokedex:
-	.string "CAM: Oh, by the way, AV{KUN},\n"
+	.string "CAM: Oh, by the way, {PLAYER}{KUN},\n"
 	.string "how's your POKéDEX coming along?$"
 
 Route104_Text_MayMinesDecentLetsBattle:
@@ -1114,7 +1114,7 @@ Route104_Text_MayLetsBattle:
 
 Route104_Text_MayIntro:
 	.string "CAM: You just became a CREATOR,\n"
-	.string "AV{KUN}. I'm not going to lose!$"
+	.string "{PLAYER}{KUN}. I'm not going to lose!$"
 
 Route104_Text_MayDefeat:
 	.string "Damn.\n"
@@ -1129,18 +1129,18 @@ Route104_Text_MayPostBattle:
 	.string "POKéMON, too.$"
 
 Route104_Text_BrendanWeShouldRegister:
-	.string "BRENDAN: Oh, hey, AV!\p"
+	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
 	.string "Cool, you had DEVON install the MATCH\n"
 	.string "CALL system on your POKéNAV!\p"
 	.string "Let's register each other in our\n"
 	.string "POKéNAVS so we can keep in touch.$"
 
 Route104_Text_RegisteredBrendan:
-	.string "AV registered BRENDAN\n"
+	.string "{PLAYER} registered BRENDAN\n"
 	.string "in the POKéNAV.$"
 
 Route104_Text_BrendanHowsYourPokedex:
-	.string "BRENDAN: AV, how's your POKéDEX?\n"
+	.string "BRENDAN: {PLAYER}, how's your POKéDEX?\n"
 	.string "Have you filled in any pages yet?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:

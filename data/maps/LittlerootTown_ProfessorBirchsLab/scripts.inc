@@ -689,7 +689,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-	.string "PROF. POBOY: So, AV{KUN}.\p"
+	.string "PROF. POBOY: So, {PLAYER}{KUN}.\p"
 	.string "I've heard that you don't have your\n"
 	.string "own POKéMON yet. Cringe.\p"
 	.string "But the way you battled earlier,\n"
@@ -697,7 +697,7 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "Oh, yes. As thanks for rescuing me,\n"
 	.string "I'd like you to have the POKéMON you\l"
 	.string "used earlier.\p"
-	.string "AV received the {STR_VAR_1}!$"
+	.string "{PLAYER} received the {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 	.string "PROF. POBOY: While you're at it, why not\n"
@@ -706,21 +706,21 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "PROF. POBOY: If you work at POKéMON\n"
 	.string "and gain experience, I think you'll make\l"
-	.string "an extremely good TRAINER.\p"
+	.string "an extremely good CREATOR.\p"
 	.string "My kid, CAM, is also studying\n"
 	.string "POKéMON while helping me out.\p"
-	.string "AV{KUN}, don't you think it might be\n"
+	.string "{PLAYER}{KUN}, don't you think it might be\n"
 	.string "a good idea to go see CAM?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. POBOY: Great!\n"
 	.string "CAM should be happy, too.\p"
 	.string "Get CAM to teach you what it\n"
-	.string "means to be a TRAINER.$"
+	.string "means to be a CREATOR.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
-	.string "PROF. POBOY: Oh, don't be that way.\n"
-	.string "You should go meet CAM.$"
+	.string "PROF. POBOY: Why do you think you have a\n"
+	.string "choice in the matter. Just press yes.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "PROF. POBOY: CAM?\n"
@@ -731,19 +731,18 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "you should get some rest at home.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
-	.string "PROF. POBOY: Oh, hi, AV{KUN}!\p"
+	.string "PROF. POBOY: Hi, {PLAYER}{KUN}!\p"
 	.string "I heard you beat CAM on\n"
 	.string "your first try. That's excellent!\p"
 	.string "CAM's been helping with my research\n"
 	.string "for a long time.\p"
-	.string "CAM has an extensive history as\n"
-	.string "a TRAINER already.\p"
-	.string "Here, AV{KUN}, I ordered this for my\n"
-	.string "research, but I think you should have\l"
-	.string "this POKéDEX.$"
+	.string "CAM has an extensive history\n"
+	.string "with CREATORS already.\p"
+	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
+	.string "research, but I think you should have it.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
-	.string "AV received the POKéDEX!$"
+	.string "{PLAYER} received the POKéDEX!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. POBOY: The POKéDEX is a high-tech\n"
@@ -761,17 +760,21 @@ LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "and do fieldwork again!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-	.string "CAM: Oh, wow, AV{KUN}!\n"
+	.string "CAM: Oh, wow, {PLAYER}{KUN}!\n"
 	.string "You got a POKéDEX, too!\p"
 	.string "That's great! Just like me!\n"
 	.string "I've got something for you, too!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "CAM: It's cool if you can get a lot of\n"
-	.string "POKéMON!\p"
-	.string "I'm going to look all over the place\n"
-	.string "because I need a good variety of\n"
-	.string "POKéMON footage for content pieces.$"
+	.string "CAM: By the way, your nuzlocke starts\n"
+	.string "now since I gave you those. GLHF.\p"
+	.string "I'm probably going to see you here\n"
+	.string "in five minutes after you fuck up\l"
+	.string "a type matchup on the next route.\p"
+	.string "I won't remember that, though, because\n"
+	.string "I am fully deconstructed and\l"
+	.string "reconstructed every time you lose.\p"
+	.string "Think about that.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh? Your BAG's full.$"
@@ -817,7 +820,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "PROF. POBOY: Now…\p"
-	.string "AV{KUN} and CAM, I've had the two\n"
+	.string "{PLAYER}{KUN} and CAM, I've had the two\n"
 	.string "of you help me study POKéMON.\p"
 	.string "Thanks to your help, new facts\n"
 	.string "are coming to light.\p"
@@ -837,20 +840,20 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "It's pretty cool that the\n"
 	.string "POKéDEX is getting updated!\p"
 	.string "Who would've thought there were\n"
-	.string "so many POKéMON, AV{KUN}?!$"
+	.string "so many POKéMON, {PLAYER}{KUN}?!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
 	.string "BRENDAN: I went out all over HOENN\n"
 	.string "and checked out POKéMON.\p"
 	.string "You can thank me for getting\n"
 	.string "the NATIONAL Mode POKéDEX.\p"
-	.string "Yep, you're lucky, AV!$"
+	.string "Yep, you're lucky, {PLAYER}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
 	.string "PROF. POBOY: Okay, all done!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
-	.string "AV's POKéDEX was upgraded\n"
+	.string "{PLAYER}'s POKéDEX was upgraded\n"
 	.string "to the NATIONAL Mode!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
@@ -875,7 +878,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 	.string "for a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-	.string "PROF. POBOY: Oh, AV{KUN}!\n"
+	.string "PROF. POBOY: Oh, {PLAYER}{KUN}!\n"
 	.string "Let's have a look at your POKéDEX.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -926,7 +929,7 @@ LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
 	.string "You picked a fine POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
-	.string "AV received the {STR_VAR_1}\n"
+	.string "{PLAYER} received the {STR_VAR_1}\n"
 	.string "from PROF. POBOY!$"
 
 @ Unused
@@ -935,7 +938,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 	.string "the {STR_VAR_1} you received?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
-	.string "PROF. POBOY: Listen, AV{KUN}.\n"
+	.string "PROF. POBOY: Listen, {PLAYER}{KUN}.\n"
 	.string "You've completed the HOENN POKéDEX,\l"
 	.string "but your POKéMON journey isn't over.\p"
 	.string "There is no end to the road\n"
@@ -953,7 +956,7 @@ LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
 	.string "this POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
-	.string "CAM: AV{KUN}, after this…\n"
+	.string "CAM: {PLAYER}{KUN}, after this…\n"
 	.string "What are you going to do?\p"
 	.string "Are you going to keep battling\n"
 	.string "and sharpening your skills?\p"
@@ -967,19 +970,19 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 	.string "steadily raising the one I chose.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
-	.string "CAM: Oh, hi, AV{KUN}!\n"
+	.string "CAM: Oh, hi, {PLAYER}{KUN}!\n"
 	.string "Have you gone to that place,\l"
 	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
-	.string "BRENDAN: Hey, AV!\n"
+	.string "BRENDAN: Hey, {PLAYER}!\n"
 	.string "Have you gone out to that place,\l"
 	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hi, hi, AV!\n"
+	.string "SCOTT: Hi, hi, {PLAYER}!\n"
 	.string "It's me, SCOTT.\p"
 	.string "I'm aboard the S.S. TIDAL now.\n"
 	.string "It feels great to be on the sea!\p"

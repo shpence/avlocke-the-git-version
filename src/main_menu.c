@@ -1479,9 +1479,8 @@ static void Task_NewGameBirchSpeech_WaitForPlayerFadeIn(u8 taskId)
     {
         gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
         gSaveBlock2Ptr->playerGender = MALE;
-        StringCopy(gSaveBlock2Ptr, "AVGHANS");
-        gTasks[taskId].func = Task_NewGameBirchSpeech_SoItsPlayerName;
-        //gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;    
+        gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseGender;
+        //gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;  
         }
 }
 
@@ -1512,13 +1511,13 @@ static void Task_NewGameBirchSpeech_ChooseGender(u8 taskId)
         case MALE:
             PlaySE(SE_SELECT);
             gSaveBlock2Ptr->playerGender = gender;
-            NewGameBirchSpeech_ClearGenderWindow(1, 1);
+            //NewGameBirchSpeech_ClearGenderWindow(1, 1);
             gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
             break;
         case FEMALE:
             PlaySE(SE_SELECT);
             gSaveBlock2Ptr->playerGender = gender;
-            NewGameBirchSpeech_ClearGenderWindow(1, 1);
+            //NewGameBirchSpeech_ClearGenderWindow(1, 1);
             gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
             break;
     }
@@ -1612,8 +1611,6 @@ static void Task_NewGameBirchSpeech_StartNamingScreen(u8 taskId)
 
 static void Task_NewGameBirchSpeech_SoItsPlayerName(u8 taskId)
 {
-    const u8 name = "AV";
-    StringCopy(gSaveBlock2Ptr->playerName, name);
     NewGameBirchSpeech_ClearWindow(0); 
     StringExpandPlaceholders(gStringVar4, gText_Birch_SoItsPlayer);
     AddTextPrinterForMessage(TRUE);
@@ -1621,8 +1618,7 @@ static void Task_NewGameBirchSpeech_SoItsPlayerName(u8 taskId)
     gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
     NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
     NewGameBirchSpeech_StartFadePlatformIn(taskId, 1);
-    gTasks[taskId].func = Task_NewGameBirchSpeech_SlidePlatformAway2;
-    //gTasks[taskId].func = Task_NewGameBirchSpeech_CreateNameYesNo;
+    gTasks[taskId].func = Task_NewGameBirchSpeech_CreateNameYesNo;
 }
 
 static void Task_NewGameBirchSpeech_CreateNameYesNo(u8 taskId)

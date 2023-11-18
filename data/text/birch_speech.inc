@@ -3,7 +3,7 @@ gText_Birch_Welcome::
 	.string "Welcome to the world of POKéMON!\p"
 	.string "My name is POBOY.\p"
 	.string "And somehow they let me become\n"
-	.string "a POKéMON PROFESSOR.\p"4
+	.string "a POKéMON PROFESSOR.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
@@ -19,8 +19,8 @@ gText_Birch_MainSpeech::
 	.string "at times as collaborative workmates.\p"
 	.string "And sometimes, we band together\n"
 	.string "and battle others like us.\p"
-	.string "Some people milk them for content,\n"
-	.string "taking advantage of the lack of a\n"
+	.string "Some people milk them for CONTENT,\n"
+	.string "taking advantage of the lack of a\l"
 	.string "POKéMON labor union. Weirdge.\p"
 	.string "But despite our closeness, we don't\n"
 	.string "know everything about POKéMON.\p"
@@ -30,25 +30,27 @@ gText_Birch_MainSpeech::
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "And you're AVGHANS, right?\n"
-	.string "AV, for short. Noted.$"
+	.string "This is where I'm supposed\n"
+	.string "to ask about your gender…\p"
+	.string "but all it says here is\n"
+	.string "“breeder.”$"
 
 gText_Birch_BoyOrGirl::
 	.string "It says here you're a boy.\n"
 	.string "Is that right?$"
 
 gText_Birch_WhatsYourName::
-	.string "All right.\n"
-	.string "What's your name?$"
+	.string "Remind me,\n"
+	.string "who are you again?$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's AV{KUN}?$"
+	.string "So it's {PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
 	.string "Ah, okay!\p"
-	.string "You're AV{KUN} who's moving to my\n"
+	.string "You're the {PLAYER}{KUN} who's moving to my\n"
 	.string "hometown of AUST- I mean LITTLEROOT.\l"
-	.string "BOOYAH!\p"
+	.string "POGGERS!\p"
 	.string "$"
 
 gText_Birch_AreYouReady::

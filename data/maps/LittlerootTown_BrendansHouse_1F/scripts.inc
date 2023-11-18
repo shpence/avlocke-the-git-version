@@ -288,30 +288,30 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "MOM: See, AV?\n"
+	.string "MOM: See, {PLAYER}?\n"
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "The mover's POKéMON do all the work\n"
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
-	.string "AV, your room is upstairs.\n"
+	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!\p"
 	.string "I bought you a new clock to mark\n"
 	.string "our move here.\l"
 	.string "Don't forget to set it!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "MOM: Well, AV?\p"
+	.string "MOM: Well, {PLAYER}?\p"
 	.string "Aren't you interested in seeing your\n"
 	.string "very own room?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
-	.string "MOM: AV.\p"
+	.string "MOM: {PLAYER}.\p"
 	.string "Go set the clock in your room, honey.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-	.string "MOM: Oh! AV, AV!\n"
+	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"
 	.string "Quick! Come quickly!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
@@ -331,14 +331,14 @@ PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "go over and introduce yourself.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "MOM: See you, honey!$"
+	.string "MOM: See you, pookie!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
 	.string "MOM: Did you introduce yourself to\n"
 	.string "PROF. POBOY?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "MOM: How are you doing, AV?\n"
+	.string "MOM: How are you doing, {PLAYER}?\n"
 	.string "You look a little tired.\p"
 	.string "I think you should rest a bit.$"
 
@@ -391,7 +391,7 @@ PlayersHouse_1F_Text_RunningShoesManual:
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "ACE: Hm?\p"
-	.string "Hey, it's AV!\p"
+	.string "Hey, it's {PLAYER}!\p"
 	.string "It's been a while since I saw you,\n"
 	.string "but your legs look more bowed, hmm.\p"
 	.string "That's the impression I get.\n"
@@ -430,7 +430,7 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "movie program.$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
-	.string "MOM: AV, did you catch that?\p"
+	.string "MOM: {PLAYER}, did you catch that?\p"
 	.string "What color did the announcer say\n"
 	.string "that POKéMON was?$"
 

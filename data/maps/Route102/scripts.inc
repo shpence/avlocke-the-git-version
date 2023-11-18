@@ -74,19 +74,20 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-	.string "LUDWIG: {PLAYER}…\n"
-	.string "POKéMON hide in tall grass like this,\l"
-	.string "don't they?\p"
-	.string "Please watch me and see if I can\n"
-	.string "catch one properly.\p"
-	.string "…Whoa!$"
+	.string "LUDDY: So according to ACE's notes…\p"
+	.string "POKéMON hide in tall grass like this.\n"
+	.string "Check this shit out-\p"
+	.string "LUDDY swings wildly in the tall grass.\p"
+	.string "LUDDY: Whew… Heh… Really didn't think\n"
+	.string "it would take that much effort.\p"
+	.string "Let's try somewh- OH SHIT!$"
 
 Route102_Text_WallyIDidIt:
-	.string "LUDWIG: I did it… It's my…\n"
-	.string "My POKéMON!$"
+	.string "LUDDY: Free-est shit of my life dude.\n"
+	.string "Wasn't even worried a bit.$"
 
 Route102_Text_LetsGoBack:
-	.string "{PLAYER}, thank you!\n"
+	.string "{PLAYER}, thanks dude!\n"
 	.string "Let's go back to the GYM!$"
 
 Route102_Text_ImNotVeryTall:

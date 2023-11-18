@@ -910,9 +910,9 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "MOM: AV, we're here, idiot!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
+	.string "MOM: {PLAYER}! we're here, pookie!\p"
+	.string "Sorry you couldn't stream from the\n"
+	.string "back of the moving truck.\p"
 	.string "Well, this is LITTLEROOT TOWN.\p"
 	.string "How do you like it?\n"
 	.string "This is our new home!\p"
@@ -923,10 +923,10 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "Let's go inside.$"
 
 LittlerootTown_Text_WaitPlayer:
-	.string "MOM: Wait, AV!$"
+	.string "MOM: Wait, {PLAYER}!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "MOM: AV! AV! Did you\n"
+	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
 	.string "introduce yourself to PROF. POBOY?\p"
 	.string "Oh! What an adorable POKéMON!\n"
 	.string "You got it from PROF. POBOY. How nice!\p"
@@ -936,11 +936,11 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "They'll put some swag in your step!$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "AV switched shoes with the\n"
+	.string "{PLAYER} switched shoes with the\n"
 	.string "BLACK VANS.$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "MOM: AV, those shoes came with\n"
+	.string "MOM: {PLAYER}, those shoes came with\n"
 	.string "instructions.\p"
 	.string "“Press the B Button while wearing these\n"
 	.string "BLACK VANS to be extra-swag!\p"
@@ -1003,13 +1003,13 @@ LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. POBOY'S POKéMON LAB$"
 
 LittlerootTown_Text_PlayersHouse:
-	.string "AV's HOUSE$"
+	.string "{PLAYER}'s HOUSE$"
 
 LittlerootTown_Text_ProfBirchsHouse:
 	.string "PROF. POBOY'S HOUSE$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-	.string "PROF. POBOY: Well, well, AV{KUN}!\n"
+	.string "PROF. POBOY: Well, well, {PLAYER}{KUN}!\n"
 	.string "That was good work out there!\p"
 	.string "I knew there was something special\n"
 	.string "about you when I first saw you,\l"

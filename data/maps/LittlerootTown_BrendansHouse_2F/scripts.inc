@@ -277,7 +277,7 @@ PlayersHouse_2F_Text_ClockIsStopped:
 	.string "Better set it and start it!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "MOM: AV, how do you like your\n"
+	.string "MOM: {PLAYER}, how do you like your\n"
 	.string "new room?\p"
 	.string "Good! Everything's put away neatly!\p"
 	.string "They finished moving everything in\n"
@@ -287,7 +287,7 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "everything's all there on your desk.$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "AV flipped open the notebook.\p"
+	.string "{PLAYER} flipped open the notebook.\p"
 	.string "ADVENTURE RULE NO. 1\n"
 	.string "Open the MENU with START.\p"
 	.string "ADVENTURE RULE NO. 2\n"
@@ -295,7 +295,7 @@ PlayersHouse_2F_Text_Notebook:
 	.string "The remaining pages are blank…$"
 
 Common_Text_LookCloserAtMap:
-	.string "AV took a closer look at the\n"
+	.string "{PLAYER} took a closer look at the\n"
 	.string "HOENN region map.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:

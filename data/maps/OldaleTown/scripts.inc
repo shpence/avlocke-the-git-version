@@ -369,22 +369,22 @@ OldaleTown_Text_PotionExplanation:
 OldaleTown_Text_WaitDontComeInHere:
 	.string "Aaaaah! Wait!\n"
 	.string "Please don't walk through here.\p"
-	.string "I'm filming a content piece with\n"
+	.string "I'm filming a CONTENT piece with\n"
 	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "Wait until I finish fliming\n"
+	.string "this, okay?$"
 
 OldaleTown_Text_DiscoveredFootprints:
-	.string "I'm filming a content piece with\n"
+	.string "I'm filming a CONTENT piece with\n"
 	.string "a rare POKéMON!\p"
 	.string "Wait until I finish filming\n"
 	.string "this, okay?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "I finished sketching the footprints of\n"
-	.string "a rare POKéMON.\p"
-	.string "But it turns out they were only my\n"
-	.string "own footprints…$"
+	.string "I finished filming with that\n"
+	.string "“rare” POKéMON.\p"
+	.string "But it turns out it was just a\n"
+	.string "WURMPLE covered in leaves…$"
 
 OldaleTown_Text_MayLetsGoBack:
 	.string "CAM: AV{KUN}!\n"

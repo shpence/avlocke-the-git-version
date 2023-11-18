@@ -740,7 +740,7 @@ PetalburgCity_Text_FullPartyExplanation:
 PetalburgCity_Text_GymSign:
 	.string "PETALBURG CITY POKéMON GYM\n"
 	.string "LEADER: TERRANCEACE\l"
-	.string "♪ “Canadian cream on my thighs” ♪$"
+	.string "“Canadian cream on my thighs”$"
 
 PetalburgCity_Text_CitySign:
 	.string "PETALBURG CITY\n"

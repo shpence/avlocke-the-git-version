@@ -147,7 +147,7 @@ static const struct WindowTemplate sWindowTemplate_SafariBalls = {
     .width = 9,
     .height = 4,
     .paletteNum = 15,
-    .baseBlock = 0x8;
+    .baseBlock = 0x8
 };
 
 static const u8 *const sPyramidFloorNames[FRONTIER_STAGES_PER_CHALLENGE + 1] =
